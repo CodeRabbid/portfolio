@@ -1,7 +1,9 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
+  const [currentSection, setCurrentSection] = useState("");
+
   useEffect(() => {
     let hoverEffectContainer = document.querySelector(".hover-effect");
     const handleMouseMove = (e) => {
@@ -11,8 +13,30 @@ function App() {
       hoverEffectContainer.style.setProperty("--y", y + "px");
     };
     hoverEffectContainer.addEventListener("mousemove", handleMouseMove);
-    return () =>
+
+    const sections = document.querySelectorAll("section");
+    const navLi = document.querySelectorAll("nav ul li");
+
+    const handleScroll = () => {
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        if (scrollY > sectionTop - 200) {
+          setCurrentSection(section.getAttribute("id"));
+        }
+      });
+      navLi.forEach((li) => {
+        li.classList.remove("active");
+        if (li.classList.contains(currentSection)) {
+          li.classList.add("active");
+        }
+      });
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
       hoverEffectContainer.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("scroll", handleScroll);
+    };
   });
 
   return (
@@ -31,13 +55,13 @@ function App() {
               </div>
               <nav>
                 <ul>
-                  <li>
+                  <li className="about">
                     <a href="#about">About</a>
                   </li>
-                  <li>
+                  <li className="experience">
                     <a href="#experience">Experience</a>
                   </li>
-                  <li>
+                  <li className="projects">
                     <a href="#projects">Projects</a>
                   </li>
                 </ul>
