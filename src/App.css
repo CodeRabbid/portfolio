@@ -1,12 +1,13 @@
 .app {
   padding: 0 48px 0 48px;
+  display: flex;
+  justify-content: center;
 }
 
 .app .header-and-main {
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-  margin: auto 0 auto;
 }
 
 header {
@@ -26,4 +27,25 @@ main {
 
 section {
   padding: 96px 0 0 0;
+}
+
+.hover-effect::before {
+  --size: 0;
+  content: "";
+  position: fixed;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(
+    circle closest-side,
+    rgb(12, 32, 66),
+    transparent
+  );
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease;
+  z-index: -1;
+}
+.hover-effect:hover::before {
+  --size: 800px;
 }
