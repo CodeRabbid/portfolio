@@ -4,14 +4,15 @@ import "./App.css";
 function App() {
   useEffect(() => {
     let hoverEffectContainer = document.querySelector(".hover-effect");
-    const h = (e) => {
+    const handleMouseMove = (e) => {
       let x = e.clientX;
       let y = e.clientY;
       hoverEffectContainer.style.setProperty("--x", x + "px");
       hoverEffectContainer.style.setProperty("--y", y + "px");
     };
-    hoverEffectContainer.addEventListener("mousemove", h);
-    return () => hoverEffectContainer.removeEventListener("mousemove", h);
+    hoverEffectContainer.addEventListener("mousemove", handleMouseMove);
+    return () =>
+      hoverEffectContainer.removeEventListener("mousemove", handleMouseMove);
   });
 
   return (
