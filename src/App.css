@@ -22,5 +22,8 @@ header {
 
 main {
   flex: 1 1 300px;
-  padding: 96px 0 96px 0;
+}
+
+section {
+  padding: 96px 0 0 0;
 }

@@ -16,15 +16,21 @@ function App() {
             </div>
             <nav>
               <ul>
-                <li>About</li>
-                <li>Experience</li>
-                <li>Projects</li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#experience">Experience</a>
+                </li>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
               </ul>
             </nav>
           </div>
           <div className="social-media">Social Media</div>
         </header>
-        <main className="content">
+        <main>
           <section id="about">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
             molestias illo perspiciatis, nihil expedita id excepturi distinctio,
