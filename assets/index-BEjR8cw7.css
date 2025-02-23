@@ -1,0 +1,1 @@
+*{margin:0;padding:0}.app{padding:0 48px}.app .header-and-main{display:flex;justify-content:space-between;max-width:1184px;margin:auto 0}header{flex:1 1 200px;padding:96px 0;position:sticky;top:0;display:flex;flex-direction:column;justify-content:space-between;max-height:calc(100vh - 182px)}main{flex:1 1 300px;padding:96px 0}
