@@ -56,13 +56,22 @@ function App() {
               <nav>
                 <ul>
                   <li className="about">
-                    <a href="#about">About</a>
+                    <a href="#about">
+                      <span className="bullet"></span>
+                      <span className="text">ABOUT</span>
+                    </a>
                   </li>
                   <li className="experience">
-                    <a href="#experience">Experience</a>
+                    <a href="#experience">
+                      <span className="bullet"></span>
+                      <span className="text">EXPERIENCE</span>
+                    </a>
                   </li>
                   <li className="projects">
-                    <a href="#projects">Projects</a>
+                    <a href="#projects">
+                      <span className="bullet"></span>
+                      <span className="text">PROJECTS</span>
+                    </a>
                   </li>
                 </ul>
               </nav>
