@@ -13,3 +13,8 @@ body {
   background-color: #0f172a;
   color: rgb(147, 164, 183);
 }
+
+::selection {
+  background: rgb(94, 234, 212);
+  color: rgb(19, 78, 74);
+}
