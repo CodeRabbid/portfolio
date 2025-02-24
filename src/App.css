@@ -237,7 +237,7 @@ ul.chips li {
 }
 
 @media only screen and (max-width: 640px) {
-  section .experience-grid {
+  section#experience .grid {
     display: block;
   }
 }
