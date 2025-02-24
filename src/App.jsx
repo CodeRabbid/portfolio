@@ -116,63 +116,95 @@ function App() {
             <section id="experience">
               <div className="section-header">EXPERIENCE</div>
               <div className="content">
-                <div className="grid">
-                  <div className="dates">2024 - PRESENT</div>
-                  <div className="description">
-                    <h3>Senior Frontend Engineer, Accessibility · Klaviyo</h3>
-                    <p className="passage">
-                      Build and maintain critical components used to construct
-                      Klaviyo’s frontend, across the whole product. Work closely
-                      with cross-functional teams, including developers,
-                      designers, and product managers, to implement and advocate
-                      for best practices in web accessibility.
-                    </p>
-                  </div>
-                </div>
-                Ad molestias numquam ut ea. Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Dolore fugiat consequatur ad
-                quidem sint dolorum deleniti fuga laudantium modi, laboriosam
-                vel optio rem unde animi iusto repellendus repudiandae.
-                Doloremque, optio. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Quod, quaerat! Libero illo delectus, nesciunt
-                voluptatum dolores nobis ab veritatis corporis dolor
-                exercitationem iure eum aliquid consectetur, ad necessitatibus
-                molestiae incidunt! Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Facilis molestias illo perspiciatis, nihil
-                expedita id excepturi distinctio, omnis quae ut, ratione enim
-                voluptas dolore sapiente cum nobis aspernatur mollitia hic!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reprehenderit molestias vel dignissimos, provident eligendi
-                nihil deserunt, ipsam, earum totam magni reiciendis rem. Maiores
-                obcaecati ab tenetur consectetur, ducimus voluptates
-                necessitatibus. Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Voluptatum nostrum aperiam eveniet assumenda
-                praesentium tempore voluptates enim nam quia, impedit sint?
-                Beatae modi vel aperiam voluptatem ex. Pariatur, animi magnam!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tenetur consectetur libero earum minima dignissimos eum.
-                Accusantium a mollitia, porro quibusdam minima quod laudantium
-                nemo qui, non, distinctio animi nulla inventore. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Quae, vero? Minus
-                aliquid molestias autem, consectetur iure laborum fugiat dolorem
-                minima, quas officia cumque, modi tenetur. Ad molestias numquam
-                ut ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolore fugiat consequatur ad quidem sint dolorum deleniti fuga
-                laudantium modi, laboriosam vel optio rem unde animi iusto
-                repellendus repudiandae. Doloremque, optio. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Quod, quaerat! Libero
-                illo delectus, nesciunt voluptatum dolores nobis ab veritatis
-                corporis dolor exercitationem iure eum aliquid consectetur, ad
-                necessitatibus molestiae incidunt!Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Facilis molestias illo
-                perspiciatis, nihil expedita id excepturi distinctio, omnis quae
-                ut, ratione enim voluptas dolore sapiente cum nobis aspernatur
-                mollitia hic! Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Reprehenderit molestias vel dignissimos,
-                provident eligendi nihil deserunt, ipsam, earum totam magni
-                reiciendis rem. Maiores obcaecati ab tenetur consectetur,
-                ducimus voluptates necessitatibus. Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit.
+                <ol>
+                  <li className="experience">
+                    <div className="grid">
+                      <div className="dates">2024 - PRESENT</div>
+                      <div className="description">
+                        <h3 className="current-position">
+                          Senior Frontend Engineer, Accessibility · Klaviyo
+                        </h3>
+                        <p className="passage">
+                          Build, style, and ship high-quality websites, design
+                          systems, mobile apps, and digital experiences for a
+                          diverse array of projects for clients including
+                          Harvard Business School, Everytown for Gun Safety,
+                          Pratt Institute, Koala Health, Vanderbilt University,
+                          The 19th News, and more. Provide leadership within
+                          engineering department through close collaboration,
+                          knowledge shares, and spearheading the development of
+                          internal tools.
+                        </p>
+                        <ul className="chips">
+                          <li>
+                            <div className="chip">JavaScript</div>
+                          </li>
+                          <li>
+                            <div className="chip">TypeScript</div>
+                          </li>
+                          <li>
+                            <div className="chip">React</div>
+                          </li>
+                          <li>
+                            <div className="chip">Storybook</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="experience">
+                    <div className="grid">
+                      <div className="dates">2018 — 2024</div>
+                      <div className="description">
+                        <h3 className="current-position">
+                          Lead Engineer · Upstatement
+                        </h3>
+                        <h3 className="previous-position">Senior Engineer</h3>
+                        <h3 className="previous-position">Engineer</h3>
+                        <p className="passage">
+                          Build and maintain critical components used to
+                          construct Klaviyo’s frontend, across the whole
+                          product. Work closely with cross-functional teams,
+                          including developers, designers, and product managers,
+                          to implement and advocate for best practices in web
+                          accessibility.
+                        </p>
+                        <ul className="chips">
+                          <li>
+                            <div className="chip">JavaScript</div>
+                          </li>
+                          <li>
+                            <div className="chip">TypeScript</div>
+                          </li>
+                          <li>
+                            <div className="chip">HTML & SCSS</div>
+                          </li>
+                          <li>
+                            <div className="chip">React</div>
+                          </li>
+                          <li>
+                            <div className="chip">Next.js</div>
+                          </li>
+                          <li>
+                            <div className="chip">React Native</div>
+                          </li>
+                          <li>
+                            <div className="chip">WordPress</div>
+                          </li>
+                          <li>
+                            <div className="chip">Contentful</div>
+                          </li>
+                          <li>
+                            <div className="chip">Node.js</div>
+                          </li>
+                          <li>
+                            <div className="chip">PHP</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
               </div>
             </section>
             <section id="projects">
