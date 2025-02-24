@@ -1,5 +1,5 @@
 .app {
-  padding: 0 48px 0 48px;
+  padding: 0 48px;
   display: flex;
   justify-content: center;
 }
@@ -110,4 +110,47 @@ nav ul li a:hover .bullet {
 nav ul li a:hover .text {
   color: rgb(220, 228, 239);
   transform: translateX(32px);
+}
+
+section .section-header {
+  position: sticky;
+  background-color: #0f172abf;
+  top: 0;
+  backdrop-filter: blur(4px);
+  padding: 20px 48px;
+}
+
+@media only screen and (max-width: 1023px) {
+  nav {
+    display: none;
+  }
+
+  .hover-effect::before {
+    display: none;
+  }
+
+  .app .header-and-main {
+    flex-direction: column;
+  }
+
+  header {
+    position: relative;
+  }
+  .app {
+    padding: 0px;
+  }
+
+  section {
+    padding: 0px 0px;
+  }
+
+  section .content {
+    padding: 20px 48px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  section .section-header {
+    display: none;
+  }
 }
