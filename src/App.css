@@ -150,6 +150,7 @@ section#experience ol li.experience {
 
 section#experience .dates {
   font-size: 12px;
+  margin: 4px 0 8px 0;
 }
 
 section#experience .description {
