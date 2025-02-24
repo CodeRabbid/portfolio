@@ -116,6 +116,19 @@ function App() {
             <section id="experience">
               <div className="section-header">EXPERIENCE</div>
               <div className="content">
+                <div className="grid">
+                  <div className="dates">2024 - PRESENT</div>
+                  <div className="description">
+                    <h3>Senior Frontend Engineer, Accessibility · Klaviyo</h3>
+                    <p className="passage">
+                      Build and maintain critical components used to construct
+                      Klaviyo’s frontend, across the whole product. Work closely
+                      with cross-functional teams, including developers,
+                      designers, and product managers, to implement and advocate
+                      for best practices in web accessibility.
+                    </p>
+                  </div>
+                </div>
                 Ad molestias numquam ut ea. Lorem ipsum dolor sit, amet
                 consectetur adipisicing elit. Dolore fugiat consequatur ad
                 quidem sint dolorum deleniti fuga laudantium modi, laboriosam
