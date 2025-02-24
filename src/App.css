@@ -27,6 +27,7 @@ main {
 
 section {
   padding: 96px 0 0 0;
+  margin-bottom: 64px;
 }
 
 .hover-effect::before {
@@ -116,8 +117,20 @@ section .section-header {
   position: sticky;
   background-color: #0f172abf;
   top: 0;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
   padding: 20px 48px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(220, 228, 239);
+  letter-spacing: 0.1em;
+}
+
+section .content p.passage {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.017em;
+  line-height: 26px;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -145,7 +158,11 @@ section .section-header {
   }
 
   section .content {
-    padding: 20px 48px;
+    padding: 20px 48px 0px 48px;
+  }
+
+  section {
+    margin-bottom: 96px;
   }
 }
 
