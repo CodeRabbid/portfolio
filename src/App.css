@@ -172,7 +172,7 @@ h2.title {
 
 p.slogan {
   margin-top: 16px;
-  width: 380px;
+  max-width: 380px;
   font-weight: 300;
 }
 
@@ -366,6 +366,10 @@ section#projects ul.experiences li.experience {
 }
 
 @media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 32px;
+  }
+
   section#experience .grid {
     display: block;
   }
