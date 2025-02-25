@@ -18,15 +18,16 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-height: calc(100vh - 182px);
+  height: calc(100vh - 182px);
 }
 
-main {
+main#content {
   flex: 1 1 300px;
+  margin-top: 96px;
 }
 
 section {
-  padding: 96px 0 0 0;
+  padding: 0 0 0 0;
   margin-bottom: 64px;
 }
 
@@ -113,6 +114,29 @@ nav ul li a:hover .text {
   transform: translateX(32px);
 }
 
+.social-media {
+  list-style-type: none;
+  margin-left: 4px;
+  margin-top: 32px;
+}
+
+.social-media-logo {
+  text-decoration: none;
+  padding: 0;
+  margin-right: 20px;
+  display: inline;
+}
+
+.social-media-logo svg {
+  width: 24px;
+  height: 24px;
+  fill: rgb(147, 164, 183);
+}
+
+.social-media-logo a:hover svg {
+  fill: rgb(229, 231, 235);
+}
+
 section .section-header {
   position: sticky;
   background-color: #0f172abf;
@@ -123,6 +147,32 @@ section .section-header {
   font-weight: 500;
   color: rgb(220, 228, 239);
   letter-spacing: 0.1em;
+}
+
+header {
+  padding: 64px 48px 0 48px;
+}
+
+h1 {
+  color: rgb(229, 231, 235);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 48px;
+  font-size: 48px;
+}
+
+h2.title {
+  margin-top: 12px;
+  color: rgb(229, 231, 235);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+p.slogan {
+  margin-top: 16px;
+  width: 380px;
+  font-weight: 300;
 }
 
 section#about .content p.passage {
@@ -288,6 +338,10 @@ section#projects ul.experiences li.experience {
 
   .app .header-and-main {
     flex-direction: column;
+  }
+
+  section {
+    position: relative;
   }
 
   header {
