@@ -53,7 +53,7 @@ function App() {
               <h1 className="name">Artyom Moskalew</h1>
               <h2 className="title">Full Stack Developer</h2>
               <p className="slogan">
-                I develop fast, accessible and visually pleasant web experiences
+                I develop fast, scalable and visually pleasant web experiences
                 from front to back.
               </p>
               <nav>
@@ -108,33 +108,34 @@ function App() {
               <div className="section-header">ABOUT</div>
               <div className="content">
                 <p className="passage">
-                  I’m a developer passionate about crafting accessible,
-                  pixel-perfect user interfaces that blend thoughtful design
-                  with robust engineering. My favorite work lies at the
-                  intersection of design and development, creating experiences
-                  that not only look great but are meticulously built for
-                  performance and usability.
+                  I’m a developer passionate about building seamless, scalable,
+                  and accessible full-stack applications that blend thoughtful
+                  design with robust engineering. I thrive at the intersection
+                  of front-end and back-end development, crafting experiences
+                  that are not only visually engaging but also optimized for
+                  performance, security, and maintainability.
                 </p>
                 <p className="passage">
-                  Currently, I'm a Senior Front-End Engineer at Klaviyo,
-                  specializing in accessibility. I contribute to the creation
-                  and maintenance of UI components that power Klaviyo’s
-                  frontend, ensuring our platform meets web accessibility
-                  standards and best practices to deliver an inclusive user
-                  experience.
+                  In my previous role as a Senior Consultant Developer at
+                  Thoughtworks, I designed, developed, and maintained software
+                  systems across diverse environments. My work spanned front-end
+                  development with React and Vue.js, back-end development with
+                  Spring and Flask, database management with SQL, data
+                  processing using the ELK stack and Terraforming on AWS, Azure,
+                  and GCP.
                 </p>
                 <p className="passage">
-                  In the past, I've had the opportunity to develop software
-                  across a variety of settings — from advertising agencies and
-                  large corporations to start-ups and small digital product
-                  studios. Additionally, I also released a comprehensive video
-                  course a few years ago, guiding learners through building a
-                  web app with the Spotify API.
+                  I collaborated with clients from various industries, including
+                  e-commerce, automotive, and big data analytics. Most of my
+                  experience comes from working alongside the talented teams at
+                  Thoughtworks and their clients. Through this, I gained a deep
+                  appreciation for agile software development methodologies,
+                  clean code, TDD, pair-programming and facilitating group
+                  discussions.
                 </p>
                 <p className="passage">
-                  In my spare time, I’m usually climbing, reading, hanging out
-                  with my wife and two cats, or running around Hyrule searching
-                  for Korok seeds.
+                  Outside of work, I enjoy playing chess, reading, spending time
+                  with my friends, and going for a run.
                 </p>
               </div>
             </section>
