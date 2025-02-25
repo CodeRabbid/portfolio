@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import resume from "./assets/resume.pdf";
 
 function App() {
   const [currentSection, setCurrentSection] = useState("");
@@ -205,6 +206,11 @@ function App() {
                     </div>
                   </li>
                 </ol>
+                <div className="resume">
+                  <a href={resume} target="blank">
+                    <span>View Full Résumé</span>
+                  </a>
+                </div>
               </div>
             </section>
             <section id="projects">

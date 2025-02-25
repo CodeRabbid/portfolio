@@ -204,6 +204,18 @@ ul.chips li {
   border-radius: 9999px;
 }
 
+section#experience .resume {
+  margin-top: 48px;
+}
+
+section#experience .resume a {
+  color: rgb(226, 232, 240);
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1023px) {
   nav {
     display: none;
