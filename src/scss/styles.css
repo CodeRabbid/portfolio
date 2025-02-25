@@ -74,6 +74,37 @@ section#experience .grid {
     --page-margin-y: 48px;
     --page-margin-x: 24px; } }
 
+@media only screen and (max-width: 640px) {
+  body h1 {
+    font-size: 32px; }
+  body section#experience .grid {
+    display: block; }
+  body section#projects .grid {
+    display: flex;
+    flex-direction: column-reverse; }
+  body section#projects .grid .image img {
+    width: 200px; } }
+
+@media only screen and (max-width: 1023px) {
+  body nav {
+    display: none; }
+  body .hover-effect::before {
+    display: none; }
+  body .app .header-and-main {
+    flex-direction: column; }
+  body section {
+    position: relative; }
+  body header {
+    position: relative; }
+  body .app {
+    padding: 0px; }
+  body section {
+    padding: 0px 0px; }
+  body section .content {
+    padding: 20px var(--page-margin-x) 0px var(--page-margin-x); }
+  body section {
+    margin-bottom: 96px; } }
+
 @media only screen and (min-width: 1024px) {
   section .section-header {
     display: none; } }
