@@ -51,10 +51,10 @@ function App() {
           <header>
             <div>
               <h1 className="name">Artyom Moskalew</h1>
-              <h2 className="title">Full Stack Engineer</h2>
+              <h2 className="title">Full Stack Developer</h2>
               <p className="slogan">
-                I design and develop fast, accessible and visually pleasant web
-                experiences from front to back.
+                I develop fast, accessible and visually pleasant web experiences
+                from front to back.
               </p>
               <nav>
                 <ul>
