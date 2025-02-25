@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import resume from "./assets/resume.pdf";
+import Arrow from "./assets/arrow.svg?react";
 
 function App() {
   const [currentSection, setCurrentSection] = useState("");
@@ -46,13 +47,11 @@ function App() {
         <div className="header-and-main">
           <header>
             <div>
-              <div className="name">Artyom Moskalew</div>
+              <h1 className="name">Artyom Moskalew</h1>
               <div className="title">Full-stack developer</div>
               <div className="status">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
-                aliquid? Magnam, officiis sunt. Dolore saepe voluptatibus
-                laboriosam, enim fuga, perferendis temporibus nobis soluta
-                minima error odio excepturi ut voluptates sapiente!
+                I build accessible, pixel-perfect digital experiences for the
+                web.
               </div>
               <nav>
                 <ul>
@@ -209,6 +208,9 @@ function App() {
                 <div className="resume">
                   <a href={resume} target="blank">
                     <span>View Full Résumé</span>
+                    <span className="arrow">
+                      <Arrow fill="white" />
+                    </span>
                   </a>
                 </div>
               </div>
@@ -216,128 +218,59 @@ function App() {
             <section id="projects">
               <div className="section-header">PROJECTS</div>
               <div className="content">
-                Voluptatum nostrum aperiam eveniet assumenda praesentium tempore
-                voluptates enim nam quia, impedit sint? Beatae modi vel aperiam
-                voluptatem ex. Pariatur, animi magnam! Lorem ipsum dolor, sit
-                amet consectetur adipisicing elit. Tenetur consectetur libero
-                earum minima dignissimos eum. Accusantium a mollitia, porro
-                quibusdam minima quod laudantium nemo qui, non, distinctio animi
-                nulla inventore. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Quae, vero? Minus aliquid molestias autem,
-                consectetur iure laborum fugiat dolorem minima, quas officia
-                cumque, modi tenetur. Ad molestias numquam ut ea. Lorem ipsum
-                dolor sit, amet consectetur adipisicing elit. Dolore fugiat
-                consequatur ad quidem sint dolorum deleniti fuga laudantium
-                modi, laboriosam vel optio rem unde animi iusto repellendus
-                repudiandae. Doloremque, optio. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Quod, quaerat! Libero illo
-                delectus, nesciunt voluptatum dolores nobis ab veritatis
-                corporis dolor exercitationem iure eum aliquid consectetur, ad
-                necessitatibus molestiae incidunt!Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Facilis molestias illo
-                perspiciatis, nihil expedita id excepturi distinctio, omnis quae
-                ut, ratione enim voluptas dolore sapiente cum nobis aspernatur
-                mollitia hic! Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Reprehenderit molestias vel dignissimos,
-                provident eligendi nihil deserunt, ipsam, earum totam magni
-                reiciendis rem. Maiores obcaecati ab tenetur consectetur,
-                ducimus voluptates necessitatibus. Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Voluptatum nostrum aperiam eveniet
-                assumenda praesentium tempore voluptates enim nam quia, impedit
-                sint? Beatae modi vel aperiam voluptatem ex. Pariatur, animi
-                magnam! Lorem ipsum dolor, sit amet consectetur adipisicing
-                elit. Tenetur consectetur libero earum minima dignissimos eum.
-                Accusantium a mollitia, porro quibusdam minima quod laudantium
-                nemo qui, non, distinctio animi nulla inventore. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Quae, vero? Minus
-                aliquid molestias autem, consectetur iure laborum fugiat dolorem
-                minima, quas officia cumque, modi tenetur. Ad molestias numquam
-                ut ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolore fugiat consequatur ad quidem sint dolorum deleniti fuga
-                laudantium modi, laboriosam vel optio rem unde animi iusto
-                repellendus repudiandae. Doloremque, optio. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Quod, quaerat! Libero
-                illo delectus, nesciunt voluptatum dolores nobis ab veritatis
-                corporis dolor exercitationem iure eum aliquid consectetur, ad
-                necessitatibus molestiae incidunt!Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Facilis molestias illo
-                perspiciatis, nihil expedita id excepturi distinctio, omnis quae
-                ut, ratione enim voluptas dolore sapiente cum nobis aspernatur
-                mollitia hic! Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Reprehenderit molestias vel dignissimos,
-                provident eligendi nihil deserunt, ipsam, earum totam magni
-                reiciendis rem. Maiores obcaecati ab tenetur consectetur,
-                ducimus voluptates necessitatibus. Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Voluptatum nostrum aperiam eveniet
-                assumenda praesentium tempore voluptates enim nam quia, impedit
-                sint? Beatae modi vel aperiam voluptatem ex. Pariatur, animi
-                magnam! Lorem ipsum dolor, sit amet consectetur adipisicing
-                elit. Tenetur consectetur libero earum minima dignissimos eum.
-                Accusantium a mollitia, porro quibusdam minima quod laudantium
-                nemo qui, non, distinctio animi nulla inventore. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Quae, vero? Minus
-                aliquid molestias autem, consectetur iure laborum fugiat dolorem
-                minima, quas officia cumque, modi tenetur. Ad molestias numquam
-                ut ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolore fugiat consequatur ad quidem sint dolorum deleniti fuga
-                laudantium modi, laboriosam vel optio rem unde animi iusto
-                repellendus repudiandae. Doloremque, optio. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Quod, quaerat! Libero
-                illo delectus, nesciunt voluptatum dolores nobis ab veritatis
-                corporis dolor exercitationem iure eum aliquid consectetur, ad
-                necessitatibus molestiae incidunt!Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Facilis molestias illo
-                perspiciatis, nihil expedita id excepturi distinctio, omnis quae
-                ut, ratione enim voluptas dolore sapiente cum nobis aspernatur
-                mollitia hic! Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Reprehenderit molestias vel dignissimos,
-                provident eligendi nihil deserunt, ipsam, earum totam magni
-                reiciendis rem. Maiores obcaecati ab tenetur consectetur,
-                ducimus voluptates necessitatibus. Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Voluptatum nostrum aperiam eveniet
-                assumenda praesentium tempore voluptates enim nam quia, impedit
-                sint? Beatae modi vel aperiam voluptatem ex. Pariatur, animi
-                magnam! Lorem ipsum dolor, sit amet consectetur adipisicing
-                elit. Tenetur consectetur libero earum minima dignissimos eum.
-                Accusantium a mollitia, porro quibusdam minima quod laudantium
-                nemo qui, non, distinctio animi nulla inventore. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Quae, vero? Minus
-                aliquid molestias autem, consectetur iure laborum fugiat dolorem
-                minima, quas officia cumque, modi tenetur. Ad molestias numquam
-                ut ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolore fugiat consequatur ad quidem sint dolorum deleniti fuga
-                laudantium modi, laboriosam vel optio rem unde animi iusto
-                repellendus repudiandae. Doloremque, optio. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Quod, quaerat! Libero
-                illo delectus, nesciunt voluptatum dolores nobis ab veritatis
-                corporis dolor exercitationem iure eum aliquid consectetur, ad
-                necessitatibus molestiae incidunt!Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Facilis molestias illo
-                perspiciatis, nihil expedita id excepturi distinctio, omnis quae
-                ut, ratione enim voluptas dolore sapiente cum nobis aspernatur
-                mollitia hic! Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Reprehenderit molestias vel dignissimos,
-                provident eligendi nihil deserunt, ipsam, earum totam magni
-                reiciendis rem. Maiores obcaecati ab tenetur consectetur,
-                ducimus voluptates necessitatibus. Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Voluptatum nostrum aperiam eveniet
-                assumenda praesentium tempore voluptates enim nam quia, impedit
-                sint? Beatae modi vel aperiam voluptatem ex. Pariatur, animi
-                magnam! Lorem ipsum dolor, sit amet consectetur adipisicing
-                elit. Tenetur consectetur libero earum minima dignissimos eum.
-                Accusantium a mollitia, porro quibusdam minima quod laudantium
-                nemo qui, non, distinctio animi nulla inventore. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Quae, vero? Minus
-                aliquid molestias autem, consectetur iure laborum fugiat dolorem
-                minima, quas officia cumque, modi tenetur. Ad molestias numquam
-                ut ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolore fugiat consequatur ad quidem sint dolorum deleniti fuga
-                laudantium modi, laboriosam vel optio rem unde animi iusto
-                repellendus repudiandae. Doloremque, optio. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Quod, quaerat! Libero
-                illo delectus, nesciunt voluptatum dolores nobis ab veritatis
-                corporis dolor exercitationem iure eum aliquid consectetur, ad
-                necessitatibus molestiae incidunt!
+                <ul className="experiences">
+                  <li className="experience">
+                    <div className="grid">
+                      <div className="image">
+                        <img src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fcourse-card.png&w=256&q=75" />
+                      </div>
+                      <div className="description">
+                        <h3 className="current-position">
+                          Build a Spotify Connected App
+                        </h3>
+                        <p className="passage">
+                          Video course that teaches how to build a web app with
+                          the Spotify Web API. Topics covered include the
+                          principles of REST APIs, user auth flows, Node,
+                          Express, React, Styled Components, and more.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="experience">
+                    <div className="grid">
+                      <div className="image">
+                        <img src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fspotify-profile.png&w=256&q=75" />
+                      </div>
+                      <div className="description">
+                        <h3 className="current-position">Spotify Profile</h3>
+                        <p className="passage">
+                          Video course that teaches how to build a web app with
+                          the Spotify Web API. Topics covered include the
+                          principles of REST APIs, user auth flows, Node,
+                          Express, React, Styled Components, and more.
+                        </p>
+                        <ul className="chips">
+                          <li>
+                            <div className="chip">React</div>
+                          </li>
+                          <li>
+                            <div className="chip">Express</div>
+                          </li>
+                          <li>
+                            <div className="chip">HTML & SCSS</div>
+                          </li>
+                          <li>
+                            <div className="chip">Spotify API</div>
+                          </li>
+                          <li>
+                            <div className="chip">Heroku</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </section>
           </main>
