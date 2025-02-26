@@ -121,11 +121,11 @@ section#experience .grid {
 @media screen and (max-width: 767px) {
   body {
     --page-margin-y: 48px;
-    --page-margin-x: 24px; } }
+    --page-margin-x: 24px; }
+    body h1 {
+      font-size: 32px; } }
 
 @media only screen and (max-width: 640px) {
-  body h1 {
-    font-size: 32px; }
   body section#experience .grid {
     display: block; }
   body section#projects .grid {

@@ -172,13 +172,13 @@ body {
   @media screen and (max-width: 767px) {
     --page-margin-y: 48px;
     --page-margin-x: 24px;
-  }
 
-  @media only screen and (max-width: 640px) {
     h1 {
       font-size: 32px;
     }
+  }
 
+  @media only screen and (max-width: 640px) {
     section#experience .grid {
       display: block;
     }
