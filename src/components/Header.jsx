@@ -33,10 +33,10 @@ export default function Header() {
     <header>
       <div>
         <h1 className="name">Artyom Moskalew</h1>
-        <h2 className="title">Full Stack Developer</h2>
+        <h2 className="title">Full Stack Engineer</h2>
         <p className="slogan">
-          I develop fast, scalable and visually pleasant web experiences from
-          front to back.
+          I develop fast, scalable and engaging web experiences from front to
+          back.
         </p>
         <nav>
           <ul>
