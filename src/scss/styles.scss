@@ -94,11 +94,11 @@ nav {
 
 main#content {
   flex: 1 1 300px;
+  margin-bottom: 64px;
 }
 
 section {
-  margin-bottom: 64px;
-  padding-top: 64px;
+  padding-top: 96px;
 }
 
 section .section-header {
@@ -234,5 +234,8 @@ body {
 @media only screen and (min-width: 1024px) {
   section .section-header {
     display: none;
+  }
+  header {
+    padding: 96px 0 0 0;
   }
 }
