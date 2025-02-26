@@ -118,21 +118,19 @@ section#experience .grid {
   section#experience .grid h3.previous-position {
     color: #64748b; }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 640px) {
   body {
     --page-margin-y: 48px;
     --page-margin-x: 24px; }
     body h1 {
-      font-size: 32px; } }
-
-@media only screen and (max-width: 640px) {
-  body section#experience .grid {
-    display: block; }
-  body section#projects .grid {
-    display: flex;
-    flex-direction: column-reverse; }
-  body section#projects .grid .image img {
-    width: 200px; } }
+      font-size: 32px; }
+    body section#experience .grid {
+      display: block; }
+    body section#projects .grid {
+      display: flex;
+      flex-direction: column-reverse; }
+    body section#projects .grid .image img {
+      width: 200px; } }
 
 @media only screen and (max-width: 1023px) {
   body nav {
