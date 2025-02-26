@@ -190,11 +190,9 @@ section#projects .youtube-player-overlay.active .youtube-player-popup {
 
 section#projects .youtube-player-popup {
   position: fixed;
-  background-color: red;
   left: 50%;
   transform: translate(-50%, -100%);
-  transition: all 400ms ease;
-  border: 3px solid green; }
+  transition: all 400ms ease; }
 
 section#projects .youtube-player-popup iframe {
   width: 100%;
