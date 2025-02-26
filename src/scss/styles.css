@@ -238,8 +238,6 @@ section#projects .youtube-player-popup iframe {
 @media only screen and (max-width: 1023px) {
   body nav {
     display: none; }
-  body .hover-effect::before {
-    display: none; }
   body .app .header-and-main {
     flex-direction: column; }
   body section {

@@ -22,10 +22,12 @@ function App() {
   useEffect(() => {
     let hoverEffectContainer = document.querySelector(".hover-effect");
     const handleMouseMove = (e) => {
-      let x = e.clientX;
-      let y = e.clientY;
-      hoverEffectContainer.style.setProperty("--x", x + "px");
-      hoverEffectContainer.style.setProperty("--y", y + "px");
+      if (window.innerWidth > 640) {
+        let x = e.clientX;
+        let y = e.clientY;
+        hoverEffectContainer.style.setProperty("--x", x + "px");
+        hoverEffectContainer.style.setProperty("--y", y + "px");
+      }
     };
     hoverEffectContainer.addEventListener("mousemove", handleMouseMove);
 

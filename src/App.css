@@ -8,15 +8,15 @@
   height: var(--size);
   background: radial-gradient(
     circle closest-side,
-    rgb(12, 32, 66),
+    rgba(100, 100, 256, 0.12),
     transparent
   );
   transform: translate(-50%, -50%);
   transition: width 0.2s ease, height 0.2s ease;
-  z-index: -1;
+  z-index: 999999;
 }
 .hover-effect:hover::before {
-  --size: 800px;
+  --size: 700px;
 }
 
 h1 {
