@@ -3,7 +3,7 @@ import Arrow from "../assets/arrow.svg?react";
 
 export default function ProjectsSection() {
   const [showVideo, setShowVideo] = useState(false);
-  const [videoLink, setVideoLink] = useState("");
+  const [videoLink, setVideoLink] = useState(null);
 
   var stopAllYouTubeVideos = () => {
     var iframe = document.querySelector("iframe");
@@ -109,7 +109,7 @@ export default function ProjectsSection() {
         </ul>
       </div>
       <div
-        class={`youtube-player-overlay ${showVideo ? "active" : ""}`}
+        className={`youtube-player-overlay ${showVideo ? "active" : ""}`}
         onClick={() => {
           stopAllYouTubeVideos();
           setShowVideo(false);
@@ -119,9 +119,9 @@ export default function ProjectsSection() {
           <iframe
             src={videoLink}
             title="How To Design A Popup YouTube Video Player Using HTML, CSS &amp; JavaScript (Part 1)"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
+            referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
         </div>
