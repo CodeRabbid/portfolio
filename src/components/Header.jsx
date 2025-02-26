@@ -1,8 +1,34 @@
 import GitLogo from "../assets/git-logo.svg?react";
 import LinkedInLogo from "../assets/linked-in-logo.svg?react";
 import FacebookLogo from "../assets/facebook-logo.svg?react";
+import { useEffect, useState } from "react";
 
 export default function Header() {
+  const [currentSection, setCurrentSection] = useState("");
+  useEffect(() => {
+    const sections = document.querySelectorAll("section");
+    const navLi = document.querySelectorAll("nav ul li");
+
+    const handleScroll = () => {
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        if (scrollY > sectionTop - 200) {
+          setCurrentSection(section.getAttribute("id"));
+        }
+      });
+      navLi.forEach((li) => {
+        li.classList.remove("active");
+        if (li.classList.contains(currentSection)) {
+          li.classList.add("active");
+        }
+      });
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
   return (
     <header>
       <div>

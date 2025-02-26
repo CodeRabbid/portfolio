@@ -6,8 +6,6 @@ import AboutSection from "./components/AboutSection";
 import Header from "./components/Header";
 
 function App() {
-  const [currentSection, setCurrentSection] = useState("");
-
   useEffect(() => {
     let hoverEffectContainer = document.querySelector(".spotlight");
     const handleMouseMove = (e) => {
@@ -20,28 +18,8 @@ function App() {
     };
     hoverEffectContainer.addEventListener("mousemove", handleMouseMove);
 
-    const sections = document.querySelectorAll("section");
-    const navLi = document.querySelectorAll("nav ul li");
-
-    const handleScroll = () => {
-      sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        if (scrollY > sectionTop - 200) {
-          setCurrentSection(section.getAttribute("id"));
-        }
-      });
-      navLi.forEach((li) => {
-        li.classList.remove("active");
-        if (li.classList.contains(currentSection)) {
-          li.classList.add("active");
-        }
-      });
-    };
-    window.addEventListener("scroll", handleScroll);
-
     return () => {
       hoverEffectContainer.removeEventListener("mousemove", handleMouseMove);
-      window.removeEventListener("scroll", handleScroll);
     };
   });
 
