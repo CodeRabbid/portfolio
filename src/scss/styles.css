@@ -18,8 +18,50 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: calc(100vh - 182px);
+  height: calc(100vh - 96px);
   padding: var(--page-margin-y) var(--page-margin-x) 0 var(--page-margin-x); }
+
+nav ul {
+  list-style-type: none;
+  margin-top: 64px;
+  width: max-content; }
+  nav ul li a {
+    padding: 10px 20px;
+    color: #93a4b7;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center; }
+  nav ul li .bullet {
+    display: inline-block;
+    width: 32px;
+    height: 1px;
+    border-bottom: 1px solid #64748b;
+    transform-origin: center left;
+    margin: 0px 15px 0px 0px;
+    transition: 0.2s; }
+  nav ul li .text {
+    color: #64748b;
+    display: inline-block;
+    transition: 0.2s;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    font-weight: 500; }
+  nav ul li a:hover .text {
+    color: #dce4ef;
+    transform: translateX(32px); }
+  nav ul li a:hover .bullet {
+    border-bottom: 1px solid #e2e8f0;
+    transform: scaleX(2); }
+  nav ul li.active a {
+    color: #e2e8f0; }
+  nav ul li.active .bullet {
+    border-bottom: 1px solid #e2e8f0;
+    transform: scaleX(2); }
+  nav ul li.active .text {
+    color: #dce4ef;
+    transform: translateX(32px); }
 
 section .section-header {
   position: sticky;
