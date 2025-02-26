@@ -8,6 +8,7 @@ import FacebookLogo from "./assets/facebook-logo.svg?react";
 
 function App() {
   const [currentSection, setCurrentSection] = useState("");
+  const [showVideo, setShowVideo] = useState(false);
 
   useEffect(() => {
     let hoverEffectContainer = document.querySelector(".hover-effect");
@@ -197,7 +198,7 @@ function App() {
                             <a href="https://upstatement.com/" target="_blank">
                               <span>Lead Engineer · Upstatement</span>
                               <span className="arrow">
-                                <Arrow fill="white" />
+                                <Arrow />
                               </span>
                             </a>
                           </div>
@@ -253,7 +254,7 @@ function App() {
                     <a href={resume} target="_blank">
                       <span>View Full Résumé</span>
                       <span className="arrow">
-                        <Arrow fill="white" />
+                        <Arrow />
                       </span>
                     </a>
                   </div>
@@ -278,7 +279,7 @@ function App() {
                             >
                               <span>Build a Spotify Connected App</span>
                               <span className="arrow">
-                                <Arrow fill="white" />
+                                <Arrow />
                               </span>
                             </a>
                           </div>
@@ -295,7 +296,10 @@ function App() {
                   <li className="experience">
                     <div className="grid">
                       <div className="image">
-                        <img src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fspotify-profile.png&w=256&q=75" />
+                        <img
+                          src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fspotify-profile.png&w=256&q=75"
+                          onClick={() => setShowVideo(true)}
+                        />
                       </div>
                       <div className="description">
                         <h3 className="current-position">
@@ -306,7 +310,7 @@ function App() {
                             >
                               <span>Spotify Profile</span>
                               <span className="arrow">
-                                <Arrow fill="white" />
+                                <Arrow />
                               </span>
                             </a>
                           </div>
@@ -338,6 +342,23 @@ function App() {
                     </div>
                   </li>
                 </ul>
+              </div>
+              <div
+                class={`youtube-player-overlay ${showVideo ? "active" : ""}`}
+                onClick={() => {
+                  setShowVideo(false);
+                }}
+              >
+                <div class="youtube-player-popup">
+                  <iframe
+                    src="https://www.youtube.com/embed/0EEJM4S5w38"
+                    title="How To Design A Popup YouTube Video Player Using HTML, CSS &amp; JavaScript (Part 1)"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </div>
             </section>
           </main>
