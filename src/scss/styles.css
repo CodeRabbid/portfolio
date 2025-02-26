@@ -9,7 +9,8 @@
   .app .header-and-main {
     display: flex;
     justify-content: space-between;
-    max-width: 1184px; }
+    max-width: 1184px;
+    gap: 16px; }
 
 header {
   flex: 1 1 200px;
@@ -62,6 +63,22 @@ nav ul {
   nav ul li.active .text {
     color: #dce4ef;
     transform: translateX(32px); }
+
+.social-media {
+  list-style-type: none;
+  margin-left: 4px;
+  margin-top: 32px; }
+  .social-media .social-media-logo {
+    text-decoration: none;
+    padding: 0;
+    margin-right: 20px;
+    display: inline; }
+  .social-media .social-media-logo svg {
+    width: 24px;
+    height: 24px;
+    fill: #93a4b7; }
+  .social-media .social-media-logo a:hover svg {
+    fill: #e5e7eb; }
 
 main#content {
   flex: 1 1 300px;
