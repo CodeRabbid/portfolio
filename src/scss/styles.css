@@ -63,6 +63,13 @@ nav ul {
     color: #dce4ef;
     transform: translateX(32px); }
 
+main#content {
+  flex: 1 1 300px; }
+
+section {
+  margin-bottom: 64px;
+  padding-top: 64px; }
+
 section .section-header {
   position: sticky;
   background-color: #0f172abf;

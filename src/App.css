@@ -1,12 +1,3 @@
-main#content {
-  flex: 1 1 300px;
-  margin-top: 96px;
-}
-
-section {
-  margin-bottom: 64px;
-}
-
 .hover-effect::before {
   --size: 0;
   content: "";
