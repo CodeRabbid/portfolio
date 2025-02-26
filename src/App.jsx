@@ -9,6 +9,15 @@ import FacebookLogo from "./assets/facebook-logo.svg?react";
 function App() {
   const [currentSection, setCurrentSection] = useState("");
   const [showVideo, setShowVideo] = useState(false);
+  const [videoLink, setVideoLink] = useState("");
+
+  var stopAllYouTubeVideos = () => {
+    var iframe = document.querySelector("iframe");
+    if (iframe) {
+      var iframeSrc = iframe.src;
+      iframe.src = iframeSrc;
+    }
+  };
 
   useEffect(() => {
     let hoverEffectContainer = document.querySelector(".hover-effect");
@@ -268,7 +277,15 @@ function App() {
                   <li className="experience">
                     <div className="grid">
                       <div className="image">
-                        <img src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fcourse-card.png&w=256&q=75" />
+                        <img
+                          src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fcourse-card.png&w=256&q=75"
+                          onClick={() => {
+                            setVideoLink(
+                              "https://www.youtube.com/embed/ArVBZZpRVok?si=xsW_QjrYPos325qz"
+                            );
+                            setShowVideo(true);
+                          }}
+                        />
                       </div>
                       <div className="description">
                         <h3 className="current-position">
@@ -298,7 +315,12 @@ function App() {
                       <div className="image">
                         <img
                           src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fspotify-profile.png&w=256&q=75"
-                          onClick={() => setShowVideo(true)}
+                          onClick={() => {
+                            setVideoLink(
+                              "https://www.youtube.com/embed/cw21m2S5PXQ?si=yITS1ls9KPlyfsJm"
+                            );
+                            setShowVideo(true);
+                          }}
                         />
                       </div>
                       <div className="description">
@@ -346,12 +368,13 @@ function App() {
               <div
                 class={`youtube-player-overlay ${showVideo ? "active" : ""}`}
                 onClick={() => {
+                  stopAllYouTubeVideos();
                   setShowVideo(false);
                 }}
               >
                 <div class="youtube-player-popup">
                   <iframe
-                    src="https://www.youtube.com/embed/0EEJM4S5w38"
+                    src={videoLink}
                     title="How To Design A Popup YouTube Video Player Using HTML, CSS &amp; JavaScript (Part 1)"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
