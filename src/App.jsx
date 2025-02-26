@@ -130,8 +130,8 @@ function App() {
                   experience comes from working alongside the talented teams at
                   Thoughtworks and their clients. Through this, I gained a deep
                   appreciation for agile software development methodologies,
-                  clean code, TDD, pair-programming and facilitating group
-                  discussions.
+                  clean code, TDD, pair-programming and facilitating effective
+                  group discussions.
                 </p>
                 <p className="passage">
                   Outside of work, I enjoy playing chess, reading, spending time
@@ -148,7 +148,17 @@ function App() {
                       <div className="dates">2024 - PRESENT</div>
                       <div className="description">
                         <h3 className="current-position">
-                          Senior Frontend Engineer, Accessibility · Klaviyo
+                          <div className="header-link">
+                            <a href="https://www.klaviyo.com/" target="_blank">
+                              <span>
+                                Senior Frontend Engineer, Accessibility ·
+                                Klaviyo
+                              </span>
+                              <span className="arrow">
+                                <Arrow fill="white" />
+                              </span>
+                            </a>
+                          </div>
                         </h3>
                         <p className="passage">
                           Build, style, and ship high-quality websites, design
@@ -183,7 +193,14 @@ function App() {
                       <div className="dates">2018 — 2024</div>
                       <div className="description">
                         <h3 className="current-position">
-                          Lead Engineer · Upstatement
+                          <div className="header-link">
+                            <a href="https://upstatement.com/" target="_blank">
+                              <span>Lead Engineer · Upstatement</span>
+                              <span className="arrow">
+                                <Arrow fill="white" />
+                              </span>
+                            </a>
+                          </div>
                         </h3>
                         <h3 className="previous-position">Senior Engineer</h3>
                         <h3 className="previous-position">Engineer</h3>
@@ -254,7 +271,17 @@ function App() {
                       </div>
                       <div className="description">
                         <h3 className="current-position">
-                          Build a Spotify Connected App
+                          <div className="header-link">
+                            <a
+                              href="https://www.newline.co/courses/build-a-spotify-connected-app"
+                              target="_blank"
+                            >
+                              <span>Build a Spotify Connected App</span>
+                              <span className="arrow">
+                                <Arrow fill="white" />
+                              </span>
+                            </a>
+                          </div>
                         </h3>
                         <p className="passage">
                           Video course that teaches how to build a web app with
@@ -271,7 +298,19 @@ function App() {
                         <img src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fspotify-profile.png&w=256&q=75" />
                       </div>
                       <div className="description">
-                        <h3 className="current-position">Spotify Profile</h3>
+                        <h3 className="current-position">
+                          <div className="header-link">
+                            <a
+                              href="https://spotify-profile.herokuapp.com/"
+                              target="_blank"
+                            >
+                              <span>Spotify Profile</span>
+                              <span className="arrow">
+                                <Arrow fill="white" />
+                              </span>
+                            </a>
+                          </div>
+                        </h3>
                         <p className="passage">
                           Video course that teaches how to build a web app with
                           the Spotify Web API. Topics covered include the
