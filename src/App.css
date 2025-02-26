@@ -91,35 +91,6 @@ ul.chips li {
   border-radius: 9999px;
 }
 
-section#experience .resume {
-  margin-top: 48px;
-}
-
-section#experience .resume a {
-  color: rgb(226, 232, 240);
-  font-weight: 400;
-  line-height: 20px;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.arrow svg {
-  fill: rgb(229, 231, 235);
-}
-
-section#experience .resume a:hover {
-  color: rgb(94, 234, 212);
-}
-
-section#experience .resume a .arrow svg {
-  margin-left: 4px;
-  transition: 0.2s ease;
-}
-section#experience .resume a:hover .arrow svg {
-  fill: rgb(94, 234, 212);
-  transform: translate(3px, -3px);
-}
-
 /* Projects */
 
 section#projects .grid {

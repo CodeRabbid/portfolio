@@ -124,6 +124,37 @@ section#about {
   }
 }
 
+.resume {
+  margin-top: 48px;
+}
+
+.header-link {
+  a {
+    color: rgb(226, 232, 240);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .arrow svg {
+    fill: rgb(229, 231, 235);
+  }
+
+  a:hover {
+    color: rgb(94, 234, 212);
+  }
+
+  a .arrow svg {
+    margin-left: 4px;
+    transition: 0.2s ease;
+  }
+  a:hover .arrow svg {
+    fill: rgb(94, 234, 212);
+    transform: translate(3px, -3px);
+  }
+}
+
 section#experience {
   ol li.experience {
     list-style-type: none;

@@ -232,12 +232,14 @@ function App() {
                   </li>
                 </ol>
                 <div className="resume">
-                  <a href={resume} target="blank">
-                    <span>View Full Résumé</span>
-                    <span className="arrow">
-                      <Arrow fill="white" />
-                    </span>
-                  </a>
+                  <div className="header-link">
+                    <a href={resume} target="_blank">
+                      <span>View Full Résumé</span>
+                      <span className="arrow">
+                        <Arrow fill="white" />
+                      </span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </section>
