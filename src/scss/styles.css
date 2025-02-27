@@ -1,5 +1,5 @@
 .spotlight::before {
-  --size: 0;
+  --size: 700px;
   content: "";
   position: fixed;
   left: var(--x);
@@ -15,10 +15,6 @@
   transition: width 0.2s ease, height 0.2s ease;
   pointer-events: none;
   z-index: 999999;
-}
-
-.spotlight:hover::before {
-  --size: 700px;
 }
 
 h1 {
