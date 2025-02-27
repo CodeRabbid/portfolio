@@ -115,7 +115,7 @@ export default function ProjectsSection() {
           setShowVideo(false);
         }}
       >
-        <div class="youtube-player-popup">
+        <div className="youtube-player-popup">
           <iframe
             src={videoLink}
             title="How To Design A Popup YouTube Video Player Using HTML, CSS &amp; JavaScript (Part 1)"
