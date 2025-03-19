@@ -19,25 +19,26 @@ export default function ProjectsSection() {
         <ul className="experiences">
           <li className="experience">
             <div className="grid">
-              <div className="image">
-                <img
-                  src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fcourse-card.png&w=256&q=75"
-                  onClick={() => {
-                    setVideoLink(
-                      "https://www.youtube.com/embed/ArVBZZpRVok?si=xsW_QjrYPos325qz"
-                    );
-                    setShowVideo(true);
-                  }}
-                />
+              <div
+                className="image"
+                style={{ position: "relative" }}
+                onClick={() => {
+                  setVideoLink(
+                    "https://www.youtube.com/embed/eWuJYR6CtHo?si=CCSxxkAWBoR4uTvX"
+                  );
+                  setShowVideo(true);
+                }}
+              >
+                <img src="https://res.cloudinary.com/dqckq3bjr/image/upload/v1742414040/BankDash_soqhmb.png" />
               </div>
               <div className="description">
                 <h3 className="current-position">
                   <div className="header-link">
                     <a
-                      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+                      href="https://coderabbid.github.io/bank-dash/#/"
                       target="_blank"
                     >
-                      <span>Build a Spotify Connected App</span>
+                      <span>BankDash - a Frontend project</span>
                       <span className="arrow">
                         <Arrow />
                       </span>
@@ -45,11 +46,24 @@ export default function ProjectsSection() {
                   </div>
                 </h3>
                 <p className="passage">
-                  Video course that teaches how to build a web app with the
-                  Spotify Web API. Topics covered include the principles of REST
-                  APIs, user auth flows, Node, Express, React, Styled
-                  Components, and more.
+                  BankDash is a purely frontend project, that showcases how I
+                  can convert a figma file into a react frontend app, keeping
+                  the desing as close as possible to the UI/UX Designer's idea.
                 </p>
+                <ul className="chips">
+                  <li>
+                    <div className="chip">ReactJS</div>
+                  </li>
+                  <li>
+                    <div className="chip">HTML & SCSS</div>
+                  </li>
+                  <li>
+                    <div className="chip">ChartJS</div>
+                  </li>
+                  <li>
+                    <div className="chip">GitHub Pages</div>
+                  </li>
+                </ul>
               </div>
             </div>
           </li>
