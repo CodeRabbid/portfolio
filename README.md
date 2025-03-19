@@ -1,8 +1,7 @@
-# React + Vite
+# BankDash - FrontEnd Project with ReactJS and ChartJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BankDash is a purely frontend project, that showcases how I can convert a figma file into a react frontend app, keeping the desing as close as possible to the UI/UX Designer's idea.
 
-Currently, two official plugins are available:
+Deployed on GitHub Pages: https://coderabbid.github.io/bank-dash
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out my other projects in my portfolio: https://coderabbid.github.io/portfolio/
