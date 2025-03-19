@@ -67,7 +67,7 @@ export default function ProjectsSection() {
               </div>
             </div>
           </li>
-          <li className="experience">
+          {/* <li className="experience">
             <div className="grid">
               <div className="image">
                 <img
@@ -119,7 +119,7 @@ export default function ProjectsSection() {
                 </ul>
               </div>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div
