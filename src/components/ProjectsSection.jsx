@@ -103,9 +103,9 @@ export default function ProjectsSection() {
                   </div>
                 </h3>
                 <p className="passage">
-                  Finger Game is realtime mobile browser game, where each player
-                  makes a challenge by placing dots randomely on the screen and
-                  the opponent needs to place fingers on the dots
+                  Finger Game is Fullstack realtime mobile browser game, where
+                  each player makes a challenge by placing dots randomely on the
+                  screen and the opponent needs to place fingers on the dots
                   simultaneously.
                 </p>
                 <ul className="chips">
