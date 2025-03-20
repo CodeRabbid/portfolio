@@ -56,6 +56,9 @@ export default function ProjectsSection() {
                     <div className="chip">NextJS</div>
                   </li>
                   <li>
+                    <div className="chip">JavaScript</div>
+                  </li>
+                  <li>
                     <div className="chip">Tailwind</div>
                   </li>
                   <li>
