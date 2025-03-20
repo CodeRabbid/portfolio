@@ -119,10 +119,10 @@ export default function ProjectsSection() {
                     <div className="chip">JavaScript</div>
                   </li>
                   <li>
-                    <div className="chip">ChartJS</div>
+                    <div className="chip">socket.io</div>
                   </li>
                   <li>
-                    <div className="chip">GitHub Pages</div>
+                    <div className="chip">Render</div>
                   </li>
                 </ul>
               </div>
@@ -172,10 +172,10 @@ export default function ProjectsSection() {
                     <div className="chip">JavaScript</div>
                   </li>
                   <li>
-                    <div className="chip">socket.io</div>
+                    <div className="chip">ChartJS</div>
                   </li>
                   <li>
-                    <div className="chip">Render</div>
+                    <div className="chip">GitHub Pages</div>
                   </li>
                 </ul>
               </div>
