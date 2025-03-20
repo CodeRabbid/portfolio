@@ -133,7 +133,7 @@ export default function ProjectsSection() {
         <div className="youtube-player-popup">
           <iframe
             src={videoLink}
-            title="How To Design A Popup YouTube Video Player Using HTML, CSS &amp; JavaScript (Part 1)"
+            title=""
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
