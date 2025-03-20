@@ -79,7 +79,7 @@ export default function ExperienceSection() {
                     <div className="chip">ReactTS</div>
                   </li>
                   <li>
-                    <div className="chip">Typescript</div>
+                    <div className="chip">TypeScript</div>
                   </li>
                   <li>
                     <div className="chip">HTML & CSS</div>
@@ -182,7 +182,7 @@ export default function ExperienceSection() {
                     <div className="chip">ReactTS</div>
                   </li>
                   <li>
-                    <div className="chip">Typescript</div>
+                    <div className="chip">TypeScript</div>
                   </li>
                   <li>
                     <div className="chip">HTML & CSS</div>

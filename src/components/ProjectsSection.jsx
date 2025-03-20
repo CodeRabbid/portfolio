@@ -56,7 +56,7 @@ export default function ProjectsSection() {
                     <div className="chip">NextJS</div>
                   </li>
                   <li>
-                    <div className="chip">JavaScript</div>
+                    <div className="chip">TypeScript</div>
                   </li>
                   <li>
                     <div className="chip">Tailwind</div>
@@ -103,9 +103,10 @@ export default function ProjectsSection() {
                   </div>
                 </h3>
                 <p className="passage">
-                  BankDash is a purely frontend project, that showcases how I
-                  can convert a figma file into a react frontend app, keeping
-                  the desing as close as possible to the UI/UX Designer's idea.
+                  Finger Game is Fullstack realtime mobile browser game, where
+                  each player makes a challenge by placing dots randomely on the
+                  screen and the opponent needs to place fingers on the dots
+                  simultaneously.
                 </p>
                 <ul className="chips">
                   <li>
@@ -156,10 +157,9 @@ export default function ProjectsSection() {
                   </div>
                 </h3>
                 <p className="passage">
-                  Finger Game is Fullstack realtime mobile browser game, where
-                  each player makes a challenge by placing dots randomely on the
-                  screen and the opponent needs to place fingers on the dots
-                  simultaneously.
+                  BankDash is a purely frontend project, that showcases how I
+                  can convert a figma file into a react frontend app, keeping
+                  the desing as close as possible to the UI/UX Designer's idea.
                 </p>
                 <ul className="chips">
                   <li>
@@ -169,7 +169,7 @@ export default function ProjectsSection() {
                     <div className="chip">HTML & CSS</div>
                   </li>
                   <li>
-                    <div className="chip">TypeScript</div>
+                    <div className="chip">JavaScript</div>
                   </li>
                   <li>
                     <div className="chip">socket.io</div>
