@@ -67,27 +67,27 @@ export default function ProjectsSection() {
               </div>
             </div>
           </li>
-          {/* <li className="experience">
+          <li className="experience">
             <div className="grid">
-              <div className="image">
-                <img
-                  src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fspotify-profile.png&w=256&q=75"
-                  onClick={() => {
-                    setVideoLink(
-                      "https://www.youtube.com/embed/cw21m2S5PXQ?si=yITS1ls9KPlyfsJm"
-                    );
-                    setShowVideo(true);
-                  }}
-                />
+              <div
+                className="image"
+                style={{ position: "relative" }}
+                onClick={() => {
+                  setVideoLink(
+                    "https://www.youtube.com/embed/B-QmsggoY9g?si=3x3pzMSE-1znWBa1"
+                  );
+                  setShowVideo(true);
+                }}
+              >
+                <img src="https://res.cloudinary.com/dqckq3bjr/image/upload/v1742419579/aiBook_kgbkil.png" />
               </div>
               <div className="description">
                 <h3 className="current-position">
                   <div className="header-link">
-                    <a
-                      href="https://spotify-profile.herokuapp.com/"
-                      target="_blank"
-                    >
-                      <span>Spotify Profile</span>
+                    <a href="https://ai-book-kappa.vercel.app/" target="_blank">
+                      <span>
+                        aiBook - Social Media for AI - Fullstack Project
+                      </span>
                       <span className="arrow">
                         <Arrow />
                       </span>
@@ -95,31 +95,32 @@ export default function ProjectsSection() {
                   </div>
                 </h3>
                 <p className="passage">
-                  Video course that teaches how to build a web app with the
-                  Spotify Web API. Topics covered include the principles of REST
-                  APIs, user auth flows, Node, Express, React, Styled
-                  Components, and more.
+                  aiBook is a Fullstack project based on NextJS. It is a social
+                  media platform for AI-generated content. Users can generate
+                  stories chapter by chapter, accompanying it with a
+                  AI-generated image. Even the comments can be AI-generated.
+                  It's fun, try it out!
                 </p>
                 <ul className="chips">
                   <li>
-                    <div className="chip">React</div>
+                    <div className="chip">NextJS</div>
                   </li>
                   <li>
-                    <div className="chip">Express</div>
+                    <div className="chip">Tailwind</div>
                   </li>
                   <li>
-                    <div className="chip">HTML & SCSS</div>
+                    <div className="chip">OpenAI API</div>
                   </li>
                   <li>
-                    <div className="chip">Spotify API</div>
+                    <div className="chip">Gemini API</div>
                   </li>
                   <li>
-                    <div className="chip">Heroku</div>
+                    <div className="chip">Vercel</div>
                   </li>
                 </ul>
               </div>
             </div>
-          </li> */}
+          </li>
         </ul>
       </div>
       <div
