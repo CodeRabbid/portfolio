@@ -100,6 +100,60 @@ export default function ProjectsSection() {
                   </div>
                 </h3>
                 <p className="passage">
+                  Finger Game is realtime mobile browser game, where each player
+                  makes a challenge by placing dots randomely on the screen and
+                  the opponent needs to place fingers on the dots
+                  simultaneously.
+                </p>
+                <ul className="chips">
+                  <li>
+                    <div className="chip">ReactJS</div>
+                  </li>
+                  <li>
+                    <div className="chip">HTML & CSS</div>
+                  </li>
+                  <li>
+                    <div className="chip">JavaScript</div>
+                  </li>
+                  <li>
+                    <div className="chip">socket.io</div>
+                  </li>
+                  <li>
+                    <div className="chip">Render</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li className="experience">
+            <div className="grid">
+              <div
+                className="image"
+                style={{ position: "relative" }}
+                onClick={() => {
+                  setVideoLink(
+                    "https://www.youtube.com/embed/eWuJYR6CtHo?si=CCSxxkAWBoR4uTvX"
+                  );
+                  setShowVideo(true);
+                }}
+              >
+                <img src="https://res.cloudinary.com/dqckq3bjr/image/upload/v1742502328/Group_4_rnsgut.png" />
+              </div>
+              <div className="description">
+                <h3 className="current-position">
+                  <div className="header-link">
+                    <a
+                      href="https://finger-game-l8ue.onrender.com"
+                      target="_blank"
+                    >
+                      <span>FingerGame - a Full-stack realtime project</span>
+                      <span className="arrow">
+                        <Arrow />
+                      </span>
+                    </a>
+                  </div>
+                </h3>
+                <p className="passage">
                   BankDash is a purely frontend project, that showcases how I
                   can convert a figma file into a react frontend app, keeping
                   the desing as close as possible to the UI/UX Designer's idea.
@@ -110,6 +164,9 @@ export default function ProjectsSection() {
                   </li>
                   <li>
                     <div className="chip">HTML & CSS</div>
+                  </li>
+                  <li>
+                    <div className="chip">JavaScript</div>
                   </li>
                   <li>
                     <div className="chip">ChartJS</div>
