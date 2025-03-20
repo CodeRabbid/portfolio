@@ -24,56 +24,6 @@ export default function ProjectsSection() {
                 style={{ position: "relative" }}
                 onClick={() => {
                   setVideoLink(
-                    "https://www.youtube.com/embed/eWuJYR6CtHo?si=CCSxxkAWBoR4uTvX"
-                  );
-                  setShowVideo(true);
-                }}
-              >
-                <img src="https://res.cloudinary.com/dqckq3bjr/image/upload/v1742414040/BankDash_soqhmb.png" />
-              </div>
-              <div className="description">
-                <h3 className="current-position">
-                  <div className="header-link">
-                    <a
-                      href="https://coderabbid.github.io/bank-dash/#/"
-                      target="_blank"
-                    >
-                      <span>BankDash - a Frontend project</span>
-                      <span className="arrow">
-                        <Arrow />
-                      </span>
-                    </a>
-                  </div>
-                </h3>
-                <p className="passage">
-                  BankDash is a purely frontend project, that showcases how I
-                  can convert a figma file into a react frontend app, keeping
-                  the desing as close as possible to the UI/UX Designer's idea.
-                </p>
-                <ul className="chips">
-                  <li>
-                    <div className="chip">ReactJS</div>
-                  </li>
-                  <li>
-                    <div className="chip">HTML & SCSS</div>
-                  </li>
-                  <li>
-                    <div className="chip">ChartJS</div>
-                  </li>
-                  <li>
-                    <div className="chip">GitHub Pages</div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </li>
-          <li className="experience">
-            <div className="grid">
-              <div
-                className="image"
-                style={{ position: "relative" }}
-                onClick={() => {
-                  setVideoLink(
                     "https://www.youtube.com/embed/N81X1tuclp0?si=611ql07kKxmUMTmX"
                   );
                   setShowVideo(true);
@@ -116,6 +66,56 @@ export default function ProjectsSection() {
                   </li>
                   <li>
                     <div className="chip">Vercel</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li className="experience">
+            <div className="grid">
+              <div
+                className="image"
+                style={{ position: "relative" }}
+                onClick={() => {
+                  setVideoLink(
+                    "https://www.youtube.com/embed/eWuJYR6CtHo?si=CCSxxkAWBoR4uTvX"
+                  );
+                  setShowVideo(true);
+                }}
+              >
+                <img src="https://res.cloudinary.com/dqckq3bjr/image/upload/v1742414040/BankDash_soqhmb.png" />
+              </div>
+              <div className="description">
+                <h3 className="current-position">
+                  <div className="header-link">
+                    <a
+                      href="https://coderabbid.github.io/bank-dash/#/"
+                      target="_blank"
+                    >
+                      <span>BankDash - a Frontend project</span>
+                      <span className="arrow">
+                        <Arrow />
+                      </span>
+                    </a>
+                  </div>
+                </h3>
+                <p className="passage">
+                  BankDash is a purely frontend project, that showcases how I
+                  can convert a figma file into a react frontend app, keeping
+                  the desing as close as possible to the UI/UX Designer's idea.
+                </p>
+                <ul className="chips">
+                  <li>
+                    <div className="chip">ReactJS</div>
+                  </li>
+                  <li>
+                    <div className="chip">HTML & CSS</div>
+                  </li>
+                  <li>
+                    <div className="chip">ChartJS</div>
+                  </li>
+                  <li>
+                    <div className="chip">GitHub Pages</div>
                   </li>
                 </ul>
               </div>
