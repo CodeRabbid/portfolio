@@ -36,7 +36,7 @@ export default function ProjectsSection() {
                   <div className="header-link">
                     <a href="https://ai-book-kappa.vercel.app/" target="_blank">
                       <span>
-                        aiBook - Social Media for AI - Fullstack Project
+                        aiBook - Social Media for AI - Full-Stack project
                       </span>
                       <span className="arrow">
                         <Arrow />
@@ -45,11 +45,11 @@ export default function ProjectsSection() {
                   </div>
                 </h3>
                 <p className="passage">
-                  aiBook is a Fullstack project based on NextJS. It is a social
-                  media platform for AI-generated content. Users can generate
-                  stories chapter by chapter, accompanying it with a
-                  AI-generated image. Even the comments can be AI-generated.
-                  It's fun, try it out!
+                  aiBook is a full-stack project built with Next.js, designed as
+                  a social media platform for AI-generated content. Users can
+                  create stories chapter by chapter, complemented by
+                  AI-generated images. Even the comments can be AI-generated!
+                  It's a fun and engaging experience — give it a try!
                 </p>
                 <ul className="chips">
                   <li>
@@ -95,7 +95,7 @@ export default function ProjectsSection() {
                       href="https://finger-game-l8ue.onrender.com"
                       target="_blank"
                     >
-                      <span>FingerGame - a Full-stack realtime project</span>
+                      <span>FingerGame - a Full-stack real-time project</span>
                       <span className="arrow">
                         <Arrow />
                       </span>
@@ -103,10 +103,10 @@ export default function ProjectsSection() {
                   </div>
                 </h3>
                 <p className="passage">
-                  Finger Game is Fullstack realtime mobile browser game, where
-                  each player makes a challenge by placing dots randomely on the
-                  screen and the opponent needs to place fingers on the dots
-                  simultaneously.
+                  Finger Game is a real-time, full-stack mobile browser game
+                  where players challenge each other by placing dots randomly on
+                  the screen. The opponent must then place their fingers on the
+                  dots simultaneously to complete the challenge.
                 </p>
                 <ul className="chips">
                   <li>
@@ -157,9 +157,10 @@ export default function ProjectsSection() {
                   </div>
                 </h3>
                 <p className="passage">
-                  BankDash is a purely frontend project, that showcases how I
-                  can convert a figma file into a react frontend app, keeping
-                  the desing as close as possible to the UI/UX Designer's idea.
+                  BankDash is a purely front-end project that demonstrates my
+                  ability to convert a Figma design into a React application
+                  while maintaining the original UI/UX as accurately as
+                  possible.
                 </p>
                 <ul className="chips">
                   <li>
