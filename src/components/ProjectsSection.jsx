@@ -116,7 +116,7 @@ export default function ProjectsSection() {
                     <div className="chip">HTML & CSS</div>
                   </li>
                   <li>
-                    <div className="chip">JavaScript</div>
+                    <div className="chip">TypeScript</div>
                   </li>
                   <li>
                     <div className="chip">socket.io</div>
