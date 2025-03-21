@@ -81,7 +81,7 @@ export default function ProjectsSection() {
                 style={{ position: "relative" }}
                 onClick={() => {
                   setVideoLink(
-                    "https://www.youtube.com/embed/eWuJYR6CtHo?si=CCSxxkAWBoR4uTvX"
+                    "https://www.youtube.com/embed/-F-SddMEUGg?si=5YGkiSsjSib_mVkt"
                   );
                   setShowVideo(true);
                 }}
