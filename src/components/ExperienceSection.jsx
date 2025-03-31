@@ -99,6 +99,9 @@ export default function ExperienceSection() {
                   <li>
                     <div className="chip">Terraform</div>
                   </li>
+                  <li>
+                    <div className="chip">Cypress</div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -151,6 +154,12 @@ export default function ExperienceSection() {
                   <li>
                     <div className="chip">Terraform</div>
                   </li>
+                  <li>
+                    <div className="chip">Cypress</div>
+                  </li>
+                  <li>
+                    <div className="chip">Playwright</div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -201,6 +210,9 @@ export default function ExperienceSection() {
                   </li>
                   <li>
                     <div className="chip">PostgreSQL</div>
+                  </li>
+                  <li>
+                    <div className="chip">Cypress</div>
                   </li>
                 </ul>
               </div>
